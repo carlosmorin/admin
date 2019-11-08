@@ -1,7 +1,7 @@
 <?php
-	namespace CONTROLLERS;
+	namespace controllers;
 
-	use MODELS\extra as extra;
+	use models\extra as extra;
 
 	class extrasController {
 
@@ -20,12 +20,12 @@
 			return false;
 		}
 
-    public function create(){
-      if($_POST){
-        $this->extra->set('name', $_POST['name']);
-        $this->extra->create();
-      }
-    }
+        public function create(){
+          if($_POST){
+            $this->extra->set('name', $_POST['name']);
+            $this->extra->create();
+          }
+        }
 
 		public function edit()
 		{

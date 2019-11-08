@@ -1,5 +1,5 @@
 <?php 
-  namespace MODELS;
+  namespace models;
   
   class bed
   {

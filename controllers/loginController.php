@@ -1,7 +1,7 @@
 <?php
-	namespace CONTROLLERS;
+	namespace controllers;
 
-	use MODELS\login as login;
+	use models\login as login;
 	
 	class loginController{
 

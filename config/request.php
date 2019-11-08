@@ -1,5 +1,5 @@
 <?php 
-	namespace Config;
+	namespace CONFIG;
 
 	class request {
 		private $controlador;

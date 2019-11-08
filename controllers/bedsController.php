@@ -1,7 +1,7 @@
 <?php
-	namespace CONTROLLERS;
+	namespace controllers;
 
-	use MODELS\bed as bed;
+	use models\bed as bed;
 
 	class bedsController {
 

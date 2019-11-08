@@ -36,8 +36,9 @@
                 </div>
               </li>
               <li class="divider" role="separator"></li>
+              
               <li>
-                <a href="<?=URL?>profile?id=<?=$_SESSION['user'][0]['id']?>">Perfil <i class="fas fa-user"></i></a>
+                <a href="<?=URL?>profile?mail=<?=$_SESSION['user'][0]['mail']?>">Perfil <i class="fas fa-user"></i></a>
               </li>
 
               <li class="divider" role="separator"></li>
@@ -71,34 +72,39 @@
       <!-- Sidebar Menu -->
 	    <ul class="sidebar-menu" data-widget="tree">
   			<li>
-        <a href="<?=URL?>users/">
-          <i class="far fa-circle"></i> <span>Usuarios</span>
-        </a>
-      </li>
-      <li>
-        <a href="<?=URL?>rooms/">
-          <i class="far fa-circle"></i> <span>Habitaciones</span>
-        </a>
-      </li>
-      <li class="treeview">
-        <a href="#">
-          <i class="fa fa-cog"></i> <span>Catalogos</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-        </a>
-        <ul class="treeview-menu">
-          <li><a href="<?=URL?>extras/">Extras</a></li>
-          <li><a href="<?=URL?>beds/">Camas</a></li>
-          <li><a href="<?=URL?>entertainment/">Entretenimiento</a></li>
-          <li><a href="<?=URL?>spaces/">Espacios</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="<?=URL?>login/logout/">
-          <i class="far fa-circle icon"></i> <span>Salir</span>
-        </a>
-      </li>
+          <a href="<?=URL?>users/">
+            <i class="far fa-circle"></i> <span>Usuarios</span>
+          </a>
+        </li>
+        <li>
+          <a href="<?=URL?>rooms/">
+            <i class="far fa-circle"></i> <span>Habitaciones</span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-cog"></i> <span>Catalogos</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?=URL?>extras/">Extras</a></li>
+            <li><a href="<?=URL?>beds/">Camas</a></li>
+            <li><a href="<?=URL?>entertainment/">Entretenimiento</a></li>
+            <li><a href="<?=URL?>spaces/">Espacios</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="<?=URL?>contact_messages/">
+            <i class="far fa-circle"></i> <span>Mensajes de contacto</span>
+          </a>
+        </li>
+        <li>
+          <a href="<?=URL?>login/logout/">
+            <i class="far fa-circle icon"></i> <span>Salir</span>
+          </a>
+        </li>
     	</ul>
       <!-- /.sidebar-menu -->
     </section>

@@ -6,12 +6,17 @@
 	<div class="box box-success">
 	    <div class="box-header with-border">
 	      <h3 class="box-title text-600">Habitaciones</h3>
-			<div class="box-tools pull-right">
-				<a href="../" class="btn btn-box-tool tool"><i class="fas fa-arrow-left"></i><span class="tooltext">Volver</span></a>
-				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-				</button>
-			</div>
+  			<div class="box-tools pull-right">
+  				<a href="../" class="btn btn-box-tool tool"><i class="fas fa-arrow-left"></i><span class="tooltext">Volver</span></a>
+  				<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+  				</button>
+  			</div>
 	    </div>
+      <pre>
+        <?php 
+          print_r($_SESSION)
+         ?>
+      </pre>
 
 		<div class="box-body padd10 bgWhite table-responsive">
 			<div class="row">
@@ -37,7 +42,7 @@
 					</thead>	
 					<tbody>
 						<?php while($row = mysqli_fetch_array($data)){?>
-							<tr>
+							<tr class="<?php ($row['status'] == 1) ? 'active' : NULL ; ?>">
 								  <th >	
 									  <a href="show/?id=<?= $row['id']; ?>"><?= $row['name']; ?></a>
 								  </th>

@@ -1,5 +1,5 @@
 <?php 
-  namespace MODELS;
+  namespace models;
   
   class users 
   {
@@ -70,6 +70,14 @@
     public function select()
     {
       $sql = "SELECT * FROM users WHERE id = '{$this->id}'";
+      $data = $this->con->return_query($sql);
+      $row = mysqli_fetch_assoc($data);
+      return $row;
+    }
+
+    public function select_mail()
+    {
+      $sql = "SELECT * FROM users WHERE mail = '{$this->mail}'";
       $data = $this->con->return_query($sql);
       $row = mysqli_fetch_assoc($data);
       return $row;

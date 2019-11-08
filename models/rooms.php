@@ -1,5 +1,5 @@
 <?php 
-  namespace MODELS;
+  namespace models;
   
   class rooms 
   {
@@ -161,15 +161,15 @@
 
     public function get_room_spaces()
     {
-      $sql = "SELECT 
-                t1.id as id_room,
-                t2.quantity as quantity,
-                t2.id_space as id_space,
-                t3.name
-              FROM rooms as t1
-              JOIN rooms_spaces as t2 ON t1.id = t2.id_room
-              JOIN extras as t3 on t2.id_space = t3.id
-              WHERE t1.id = '{$this->id}'";
+        $sql = "SELECT 
+                  t1.id as id_room,
+                  t2.quantity as quantity,
+                  t2.id_space as id_space,
+                  t3.name
+                FROM rooms as t1
+                JOIN rooms_spaces as t2 ON t1.id = t2.id_room
+                JOIN extras as t3 on t2.id_space = t3.id
+                WHERE t1.id = '{$this->id}'";
       $data = $this->con->return_query($sql);
       return $data;
     }

@@ -5,7 +5,7 @@
   {
     public static function run(Request $request){
       $controlador = $request->getControlador() . "Controller";
-      $ruta = ROOT . "CONTROLLERS" .DS . $controlador.".php";
+      $ruta = ROOT . "controllers" .DS . $controlador.".php";
       //error_log($ruta);
       
       $metodo = $request->getMetodo();
@@ -18,7 +18,7 @@
         //error_log($ruta);
 
         require_once $ruta;
-        $mostrar = "CONTROLLERS\\".$controlador;
+        $mostrar = "controllers\\".$controlador;
         $controlador = new $mostrar;
         //error_log($mostrar);
 
@@ -33,7 +33,7 @@
       }
 
       //CARGAR VISTA
-      $ruta = ROOT . "VIEWS" . DS . $request->getControlador() . DS . $request->getMetodo() . ".php";
+      $ruta = ROOT . "views" . DS . $request->getControlador() . DS . $request->getMetodo() . ".php";
       // print $ruta;
       if (is_readable($ruta)) {
         
@@ -45,7 +45,7 @@
           require_once $ruta;
         }
       }else{
-        require ROOT."VIEWS/404/404.php";
+        require ROOT."views/404/404.php";
       }
     }
   }  

@@ -1,8 +1,6 @@
 <?php  
 
-	namespace MODELS;
-
-
+	namespace models;
 
 	class conexion
 
@@ -10,9 +8,9 @@
 		///PRODUCCION
 		/*private $datos = array(
 			'host' => 'localhost',
-			'user' => 'albardas2015',
-			'pass' => 'albardas2105',
-			'db' => 'albardas'
+			'user' => 'user78',
+			'pass' => 'User78admin',
+			'db' => 'hotelapp'
 		);*/
 		private $datos = array(
 			'host' => 'localhost',

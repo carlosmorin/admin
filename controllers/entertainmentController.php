@@ -1,7 +1,7 @@
 <?php
-	namespace CONTROLLERS;
+	namespace controllers;
 
-	use MODELS\entertainment as entertainment;
+	use models\entertainment as entertainment;
 
 	class entertainmentController {
 
@@ -20,12 +20,12 @@
 			return false;
 		}
 
-    public function create(){
-      if($_POST){
-        $this->entertainment->set('name', $_POST['name']);
-        $this->entertainment->create();
-      }
-    }
+        public function create(){
+          if($_POST){
+            $this->entertainment->set('name', $_POST['name']);
+            $this->entertainment->create();
+          }
+        }
 
 		public function edit()
 		{

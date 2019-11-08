@@ -1,5 +1,5 @@
 <?php 
-	namespace CONTROLLERS;
+	namespace controllers;
 
 	class encrypt 
 	{

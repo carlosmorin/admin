@@ -1,7 +1,7 @@
 <?php 
-	namespace MODELS;
+	namespace models;
 
-	use CONTROLLERS\encrypt as encrypt;
+	use controllers\encrypt as encrypt;
 
 	class login 
 	{
@@ -24,7 +24,7 @@
 			return $this->$atributo;
 		}
 
-		public function validate(){
+ 		public function validate(){
 					
 			$sql = "SELECT * FROM users WHERE mail = '{$this->mail}'";
 
@@ -35,7 +35,8 @@
 
 			if ($n_rows == 1) {
 				if ($pass_decrypted == $this->pass) {
-	  				$array = array('id' => $row['id'],
+	  				$array = array(
+                  'id' => $row['id'],
 									'name' => $row['name'],
 									'mail' => $row['mail']
 								);

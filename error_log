@@ -1,0 +1,246 @@
+[07-Nov-2019 01:51:06 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:06 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:06 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 43
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 33
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\loginController' does not have a method 'css' in /home/gn7rris8rmt5/public_html/admin/config/enrutador.php on line 30
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'user78'@'localhost' to database 'hotelapp' in /home/gn7rris8rmt5/public_html/admin/models/conexion.php on line 32
+[07-Nov-2019 01:51:17 America/Monterrey] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\loginController' does not have a method 'css' in /home/gn7rris8rmt5/public_html/admin/config/enrutador.php on line 30
+[07-Nov-2019 01:52:54 America/Monterrey] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\loginController' does not have a method 'css' in /home/gn7rris8rmt5/public_html/admin/config/enrutador.php on line 30
+[07-Nov-2019 01:52:54 America/Monterrey] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\loginController' does not have a method 'css' in /home/gn7rris8rmt5/public_html/admin/config/enrutador.php on line 30
+[07-Nov-2019 01:53:02 America/Monterrey] PHP Notice:  Undefined index: pass in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 34
+[07-Nov-2019 01:53:02 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 38
+[07-Nov-2019 01:53:02 America/Monterrey] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php:17
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(45): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php on line 17
+[07-Nov-2019 01:53:05 America/Monterrey] PHP Warning:  include_once(MODELS/users.php): failed to open stream: No such file or directory in /home/gn7rris8rmt5/public_html/admin/config/autoload.php on line 12
+[07-Nov-2019 01:53:05 America/Monterrey] PHP Warning:  include_once(): Failed opening 'MODELS/users.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gn7rris8rmt5/public_html/admin/config/autoload.php on line 12
+[07-Nov-2019 01:53:05 America/Monterrey] PHP Fatal error:  Uncaught Error: Class 'MODELS\users' not found in /home/gn7rris8rmt5/public_html/admin/controllers/usersController.php:14
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/controllers/usersController.php(75): CONTROLLERS\usersController->__construct()
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(20): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/controllers/usersController.php on line 14
+[07-Nov-2019 01:53:07 America/Monterrey] PHP Warning:  include_once(MODELS/rooms.php): failed to open stream: No such file or directory in /home/gn7rris8rmt5/public_html/admin/config/autoload.php on line 12
+[07-Nov-2019 01:53:07 America/Monterrey] PHP Warning:  include_once(): Failed opening 'MODELS/rooms.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gn7rris8rmt5/public_html/admin/config/autoload.php on line 12
+[07-Nov-2019 01:53:07 America/Monterrey] PHP Fatal error:  Uncaught Error: Class 'MODELS\rooms' not found in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php:9
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php(215): CONTROLLERS\roomsController->__construct()
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(20): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 9
+[07-Nov-2019 01:53:08 America/Monterrey] PHP Warning:  include_once(MODELS/contact_message.php): failed to open stream: No such file or directory in /home/gn7rris8rmt5/public_html/admin/config/autoload.php on line 12
+[07-Nov-2019 01:53:08 America/Monterrey] PHP Warning:  include_once(): Failed opening 'MODELS/contact_message.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gn7rris8rmt5/public_html/admin/config/autoload.php on line 12
+[07-Nov-2019 01:53:08 America/Monterrey] PHP Fatal error:  Uncaught Error: Class 'MODELS\contact_message' not found in /home/gn7rris8rmt5/public_html/admin/controllers/contact_messagesController.php:11
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/controllers/contact_messagesController.php(63): CONTROLLERS\contact_messagesController->__construct()
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(20): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/controllers/contact_messagesController.php on line 11
+[07-Nov-2019 02:00:57 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/contact_messages/show.php on line 16
+[07-Nov-2019 02:01:00 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:01:03 America/Monterrey] mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 2
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+[07-Nov-2019 02:01:03 America/Monterrey] mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 2
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+[07-Nov-2019 02:01:03 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/rooms/edit.php on line 25
+[07-Nov-2019 02:01:41 America/Monterrey] PHP Notice:  Undefined offset: 2 in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 71
+[07-Nov-2019 02:01:41 America/Monterrey] PHP Notice:  Undefined offset: 2 in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 72
+[07-Nov-2019 02:01:41 America/Monterrey] PHP Warning:  mkdir(): No such file or directory in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 124
+[07-Nov-2019 02:01:43 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:01:47 America/Monterrey] mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 2
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+[07-Nov-2019 02:01:47 America/Monterrey] mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 2
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+[07-Nov-2019 02:01:47 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/rooms/edit.php on line 25
+[07-Nov-2019 02:01:53 America/Monterrey] PHP Warning:  include_once(MODELS/conexion.php): failed to open stream: No such file or directory in /home/gn7rris8rmt5/public_html/admin/config/autoload.php on line 12
+[07-Nov-2019 02:01:53 America/Monterrey] PHP Warning:  include_once(): Failed opening 'MODELS/conexion.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/gn7rris8rmt5/public_html/admin/config/autoload.php on line 12
+[07-Nov-2019 02:01:53 America/Monterrey] PHP Fatal error:  Uncaught Error: Class 'MODELS\conexion' not found in /home/gn7rris8rmt5/public_html/admin/models/extra.php:12
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/controllers/extrasController.php(11): MODELS\extra->__construct()
+#1 /home/gn7rris8rmt5/public_html/admin/controllers/extrasController.php(64): controllers\extrasController->__construct()
+#2 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(20): require_once('/home/gn7rris8r...')
+#3 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#4 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/models/extra.php on line 12
+[07-Nov-2019 02:02:22 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/extras/new.php on line 14
+[07-Nov-2019 02:02:28 America/Monterrey] PHP Notice:  Undefined variable: msg in /home/gn7rris8rmt5/public_html/admin/models/extra.php on line 44
+[07-Nov-2019 02:02:39 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/extras/edit.php on line 17
+[07-Nov-2019 02:02:41 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/extras/edit.php on line 17
+[07-Nov-2019 02:02:44 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 42
+[07-Nov-2019 02:02:44 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 47
+[07-Nov-2019 02:02:47 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/users/new.php on line 14
+[07-Nov-2019 02:03:43 America/Monterrey] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/gn7rris8rmt5/public_html/admin/models/users.php on line 42
+[07-Nov-2019 02:03:43 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/users/new.php on line 14
+[07-Nov-2019 02:03:44 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 42
+[07-Nov-2019 02:03:44 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 47
+[07-Nov-2019 02:03:44 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 42
+[07-Nov-2019 02:03:44 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 47
+[07-Nov-2019 02:03:58 America/Monterrey] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\loginController' does not have a method 'css' in /home/gn7rris8rmt5/public_html/admin/config/enrutador.php on line 30
+[07-Nov-2019 02:03:58 America/Monterrey] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\loginController' does not have a method 'css' in /home/gn7rris8rmt5/public_html/admin/config/enrutador.php on line 30
+[07-Nov-2019 02:04:09 America/Monterrey] PHP Notice:  Undefined index: pass in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 34
+[07-Nov-2019 02:04:09 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 38
+[07-Nov-2019 02:04:09 America/Monterrey] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php:17
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(45): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php on line 17
+[07-Nov-2019 02:04:11 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 42
+[07-Nov-2019 02:04:11 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 47
+[07-Nov-2019 02:04:11 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 42
+[07-Nov-2019 02:04:11 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 47
+[07-Nov-2019 02:04:20 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:04:24 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/rooms/new.php on line 14
+[07-Nov-2019 02:04:50 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:04:50 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:04:53 America/Monterrey] mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 2
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+[07-Nov-2019 02:04:53 America/Monterrey] mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 2
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+[07-Nov-2019 02:04:53 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/rooms/edit.php on line 25
+[07-Nov-2019 02:05:43 America/Monterrey] PHP Notice:  Undefined offset: 1 in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 71
+[07-Nov-2019 02:05:43 America/Monterrey] PHP Notice:  Undefined offset: 1 in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 72
+[07-Nov-2019 02:05:43 America/Monterrey] PHP Notice:  Undefined offset: 2 in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 71
+[07-Nov-2019 02:05:43 America/Monterrey] PHP Notice:  Undefined offset: 2 in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 72
+[07-Nov-2019 02:05:43 America/Monterrey] PHP Warning:  mkdir(): No such file or directory in /home/gn7rris8rmt5/public_html/admin/controllers/roomsController.php on line 124
+[07-Nov-2019 02:05:43 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:05:43 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:05:51 America/Monterrey] mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 2
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+[07-Nov-2019 02:05:51 America/Monterrey] mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 2
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+[07-Nov-2019 02:05:51 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/rooms/edit.php on line 25
+[07-Nov-2019 02:05:59 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/contact_messages/show.php on line 16
+[07-Nov-2019 02:06:01 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:06:01 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:06:08 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 42
+[07-Nov-2019 02:06:08 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 47
+[07-Nov-2019 02:06:08 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 42
+[07-Nov-2019 02:06:08 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/views/users/index.php on line 47
+[07-Nov-2019 02:06:09 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:06:09 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 02:06:13 America/Monterrey] PHP Notice:  Undefined index: msg in /home/gn7rris8rmt5/public_html/admin/views/rooms/new.php on line 14
+[07-Nov-2019 21:24:40 America/Monterrey] PHP Notice:  Undefined index: pass in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 34
+[07-Nov-2019 21:24:40 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 38
+[07-Nov-2019 21:24:40 America/Monterrey] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php:17
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(45): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php on line 17
+[07-Nov-2019 21:24:43 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 21:24:43 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 21:27:50 America/Monterrey] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\loginController' does not have a method 'css' in /home/gn7rris8rmt5/public_html/admin/config/enrutador.php on line 30
+[07-Nov-2019 21:27:50 America/Monterrey] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\loginController' does not have a method 'css' in /home/gn7rris8rmt5/public_html/admin/config/enrutador.php on line 30
+[07-Nov-2019 21:28:29 America/Monterrey] PHP Notice:  Undefined index: pass in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 34
+[07-Nov-2019 21:28:29 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 38
+[07-Nov-2019 21:28:30 America/Monterrey] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php:17
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(45): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php on line 17
+[07-Nov-2019 21:28:32 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 21:28:32 America/Monterrey] PHP Notice:  Undefined index: status in /home/gn7rris8rmt5/public_html/admin/views/rooms/index.php on line 40
+[07-Nov-2019 21:32:26 America/Monterrey] PHP Notice:  Undefined index: pass in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 34
+[07-Nov-2019 21:32:26 America/Monterrey] PHP Notice:  Undefined index: id in /home/gn7rris8rmt5/public_html/admin/models/login.php on line 38
+[07-Nov-2019 21:32:27 America/Monterrey] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php:17
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(45): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php on line 17
+[07-Nov-2019 21:32:41 America/Monterrey] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php:17
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(45): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php on line 17
+[07-Nov-2019 21:32:46 America/Monterrey] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php:17
+Stack trace:
+#0 /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gn7rris8rmt5/public_html/admin/config/enrutador.php(45): require_once('/home/gn7rris8r...')
+#2 /home/gn7rris8rmt5/public_html/admin/index.php(18): CONFIG\enrutador::run(Object(CONFIG\request))
+#3 {main}
+  thrown in /home/gn7rris8rmt5/public_html/admin/views/dashboard/index.php on line 17

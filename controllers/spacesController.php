@@ -1,12 +1,12 @@
 <?php
-	namespace CONTROLLERS;
+	namespace controllers;
 
-	use MODELS\space as space;
+	use models\space as space;
 
 	class spacesController {
 
-    public $space;
-
+        public $space;
+    
 		public function __construct(){
 			$this->space = new space();
 		}
@@ -19,13 +19,13 @@
 		public function new(){
 			return false;
 		}
-
-    public function create(){
-      if($_POST){
-        $this->space->set('name', $_POST['name']);
-        $this->space->create();
-      }
-    }
+    
+        public function create(){
+          if($_POST){
+            $this->space->set('name', $_POST['name']);
+            $this->space->create();
+          }
+        }
 
 		public function edit()
 		{
