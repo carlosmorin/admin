@@ -14,6 +14,7 @@
     public $id_entertainment;
     public $quantity;
     public $id_space;
+    public $src;
 
 
     public function __construct(){
@@ -81,8 +82,6 @@
       
     }
 
-
-
     public function delete()
     {
       $sql = "DELETE FROM rooms WHERE id = '{$this->id}'";
@@ -126,6 +125,11 @@
 
     public function add_space(){
       $sql = "INSERT INTO rooms_spaces ( id_room, id_space, quantity ) VALUES({$this->id_room}, {$this->id_space}, 0 )";
+      $this->con->simple_query($sql);
+    }
+
+    public function add_images(){
+      $sql = "INSERT INTO room_images(src, id_room) VALUES ({$this->src}, {$this->id_room})";
       $this->con->simple_query($sql);
     }
     //JOINS
