@@ -1,3 +1,32 @@
+<style>
+  .img_content{
+    width: 250px;
+    height: 200px;
+    background: red;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    box-shadow: 1px 1px 1px #9d9c9c;
+    display: inline-block;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img_delete{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+</style>
 <?php 
 	$row = $rooms->edit();
   $c_beds = $rooms->beds();
@@ -8,6 +37,7 @@
   $spaces = $rooms->get_spaces();
   $room_extras = $rooms->get_room_extras();
   $extras = $rooms->get_extras();
+  $images = $rooms->get_images();
 ?>
 <div class="col-md-12" style="background: #f9f9f9;">
   <form action="<?=URL?>rooms/edit/" method="post"  id="addEmploye" autocomplete="off" enctype="multipart/form-data">
@@ -230,6 +260,11 @@
             <div class="mainContent">
               <div class="row" style="border-bottom: 1px solid #ccc;">
                 <div class="col-lg-10">
+                  <?php foreach ($images as $image) { ?>
+                    <div class="img_content" style="background-image: url('<?= URL ?>/views/rooms/images/<?= $image['src'] ?>');">
+                      <a href="<?= URL ?>rooms/delete_image/?id_image=<?= $image['id'] ?>" class="img_delete" onclick="delete_image(this)">X</a>
+                    </div>
+                  <?php } ?>
                   <input type="file" name="images[]" id="" required="" accept="image/*" multiple="">
                 </div>
               </div>
@@ -253,6 +288,42 @@
           
 
 <script>
+
+  function delete_image(obj){
+    event.preventDefault();
+    var url = $(obj).attr('href');
+    alert(url);
+    swal({
+      title: "Estas seguro?",
+      text: "eliminar este registro",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    })
+    .then((willDelete) => {
+      if (willDelete) {
+        $.ajax({
+        url: url,
+        type: "GET",
+        data: "",
+        contentType: false,
+        processData: false,
+        success: function(datos)
+        {
+          swal("Registro eliminado !", {
+            icon: "success",
+          });
+          location.reload();
+        }
+    }); 
+      } else {
+        swal("Operacion cancelada");
+      }
+    });
+  }
+
+
+
   function delete_row(obj) {
     event.preventDefault();
     $(obj).parent("div").parent("div.row").remove();

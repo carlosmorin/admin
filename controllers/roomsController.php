@@ -60,7 +60,7 @@
         error_log(print_r($beds, true));
 				return $row;
 			}
-
+      
 		}
 
     private function update_rooms(){
@@ -121,6 +121,8 @@
 
           //recorremos el array de imagenes para subirlas al simultaneo
           for($i = 0; $i < count($tmp_name_array); $i++){
+            $name_array[$i] = $this->random().".jpg";
+
               if(move_uploaded_file($tmp_name_array[$i], $uploadDirectory.$name_array[$i])){
                 //Aqui debera de ir la funcion para insrtar en la base de datos
                 $this->rooms->set('id_room', $_POST['id']);
@@ -135,7 +137,15 @@
           }
       }
     }
-    
+    function random(){
+
+      $str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwx yz234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmn opqrstuvwxyz234567890";
+      $cad = "";
+      for($i=0;$i<10;$i++) {
+      $cad .= substr($str,rand(0,120),1);
+      }
+      return $cad;
+    }
     
     public function select()
 		{
@@ -153,6 +163,16 @@
 				return false;
 			}
 		}
+
+    public function delete_image()
+    {
+      if (isset($_GET['id_image'])) {
+        $this->rooms->set('id_image', $_GET['id_image']);
+        $this->rooms->delete_image();
+      }else{
+        return false;
+      }
+    }
         //JOINS
         public function get_beds()
         {
@@ -188,7 +208,12 @@
           $data = $this->rooms->get_extras();
           return $data;
         }
-    
+
+        public function get_images()
+        {
+          $data = $this->rooms->get_images();
+          return $data;
+        }
     
         
         //Catalogo

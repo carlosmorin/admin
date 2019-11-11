@@ -15,6 +15,7 @@
     public $quantity;
     public $id_space;
     public $src;
+    public $id_image;
 
 
     public function __construct(){
@@ -108,6 +109,14 @@
       $this->con->simple_query($sql);
     }
 
+    public function delete_image(){
+      $sql = "DELETE FROM room_images WHERE id = {$this->id_image}";
+      $this->con->simple_query($sql);
+      
+      header("Location: ".URL."rooms/edit/?id="+$this->id_image+"");
+
+    }
+
     public function add_rooms(){
       $sql = "INSERT INTO rooms_beds(id_room, id_bed, quantity) VALUES ({$this->id_room}, {$this->id_bed}, {$this->quantity})";
       $this->con->simple_query($sql);
@@ -129,7 +138,7 @@
     }
 
     public function add_images(){
-      $sql = "INSERT INTO room_images(src, id_room) VALUES ({$this->src}, {$this->id_room})";
+      $sql = "INSERT INTO room_images(src, id_room) VALUES ('{$this->src}', {$this->id_room})";
       $this->con->simple_query($sql);
     }
     //JOINS
@@ -172,7 +181,7 @@
                   t3.name
                 FROM rooms as t1
                 JOIN rooms_spaces as t2 ON t1.id = t2.id_room
-                JOIN extras as t3 on t2.id_space = t3.id
+                JOIN spaces as t3 on t2.id_space = t3.id
                 WHERE t1.id = '{$this->id}'";
       $data = $this->con->return_query($sql);
       return $data;
@@ -216,6 +225,18 @@
 
     public function get_extras(){
       $sql = "SELECT * FROM extras ORDER BY name";
+      $data = $this->con->return_query($sql);
+      return $data;
+    } 
+
+    public function get_images(){
+      $sql = "SELECT 
+                t2.id as id ,
+                t1.id as id_room,
+                t2.src as src
+              FROM rooms as t1
+              JOIN room_images as t2 ON  t1.id = t2.id_room
+              WHERE t1.id = '{$this->id}'";
       $data = $this->con->return_query($sql);
       return $data;
     } 
