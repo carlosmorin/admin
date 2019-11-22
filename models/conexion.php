@@ -6,18 +6,18 @@
 
 	{
 		///PRODUCCION
-		private $datos = array(
+		/*private $datos = array(
 			'host' => 'localhost',
 			'user' => 'user78',
 			'pass' => 'User78admin',
 			'db' => 'hotelapp'
-		);
-		/*private $datos = array(
+		);*/
+		private $datos = array(
 			'host' => 'localhost',
 			'user' => 'root',
 			'pass' => '',
 			'db' => 'hotelapp'
-		);*/
+		);
 
 		private $con;
 

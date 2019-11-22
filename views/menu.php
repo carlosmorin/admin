@@ -81,6 +81,12 @@
             <i class="far fa-circle"></i> <span>Habitaciones</span>
           </a>
         </li>
+
+        <li>
+          <a href="<?=URL?>events/">
+            <i class="far fa-circle"></i> <span>Eventos</span>
+          </a>
+        </li>
         <li class="treeview">
           <a href="#">
             <i class="fa fa-cog"></i> <span>Catalogos</span>
